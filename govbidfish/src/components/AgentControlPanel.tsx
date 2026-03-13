@@ -26,7 +26,7 @@ const AgentControlPanel = ({ onResults, onLoading, isLoading }: AgentControlPane
 
     try {
       // Forward request to our Spring Boot Backend
-      const response = await fetch('http://localhost:8080/api/analyze', {
+      const response = await fetch('https://investfish.onrender.com/api/analyze', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

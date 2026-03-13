@@ -63,7 +63,7 @@ export default function Home() {
           <div>
             <h4 className="font-semibold text-emerald-500 mb-1">Architecture Note</h4>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              This application is driven by a <strong>Java Spring Boot</strong> backend (`localhost:8080/api/analyze`). When you click "Run Autonomous Analysis", the Next.js frontend connects directly to the Java API. In a production environment, that Java backend orchestrates the TinyFish API to aggregate thousands of pages of historical stock charts, SEC filings, and news into reliable buy/hold indicators.
+              This application is driven by a <strong>Java Spring Boot</strong> backend (`investfish.onrender.com/api/analyze`). When you click "Run Autonomous Analysis", the Next.js frontend connects directly to the Java API. In a production environment, that Java backend orchestrates the TinyFish API to aggregate thousands of pages of historical stock charts, SEC filings, and news into reliable buy/hold indicators.
             </p>
           </div>
         </div>
