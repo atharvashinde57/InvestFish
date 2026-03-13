@@ -1,0 +1,53 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.example:investfish >-----------------------
+[INFO] Building investfish 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:2.7.18:run (default-cli) > test-compile @ investfish >>>
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ investfish ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory C:\Users\Atharva\Desktop\Projects\HakerEarth\investfish-backend\src\main\resources
+[INFO] skip non existing resourceDirectory C:\Users\Atharva\Desktop\Projects\HakerEarth\investfish-backend\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ investfish ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ investfish ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory C:\Users\Atharva\Desktop\Projects\HakerEarth\investfish-backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ investfish ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:2.7.18:run (default-cli) < test-compile @ investfish <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:2.7.18:run (default-cli) @ investfish ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.18)
+
+2026-03-13 17:55:10.649  INFO 35636 --- [           main] c.e.investfish.InvestfishApplication     : Starting InvestfishApplication using Java 1.8.0_202 on vilgax with PID 35636 (C:\Users\Atharva\Desktop\Projects\HakerEarth\investfish-backend\target\classes started by Atharva in C:\Users\Atharva\Desktop\Projects\HakerEarth\investfish-backend)
+2026-03-13 17:55:10.652  INFO 35636 --- [           main] c.e.investfish.InvestfishApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-03-13 17:55:11.461  INFO 35636 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-03-13 17:55:11.472  INFO 35636 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-13 17:55:11.472  INFO 35636 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-03-13 17:55:11.563  INFO 35636 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-13 17:55:11.563  INFO 35636 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 882 ms
+2026-03-13 17:55:11.797  INFO 35636 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-03-13 17:55:11.803  INFO 35636 --- [           main] c.e.investfish.InvestfishApplication     : Started InvestfishApplication in 1.383 seconds (JVM running for 1.628)
+2026-03-13 17:56:35.707  INFO 35636 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-13 17:56:35.707  INFO 35636 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-13 17:56:35.707  INFO 35636 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-03-13 17:56:36.081  WARN 35636 --- [nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('\' (code 92)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('\' (code 92)): was expecting double-quote to start field name<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 3]]
