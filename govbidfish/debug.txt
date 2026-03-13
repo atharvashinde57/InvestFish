@@ -1,0 +1,291 @@
+
+> govbidfish@0.1.0 monitor
+> tsx scripts/monitor-pricing.ts
+
+==================================================
+≡ƒÄú Starting Daily TinyFish Competitor Monitor...
+==================================================
+
+ΓÅ│ Dispatching agent to visit AgentQL (https://agentql.com/pricing)...
+DEBUG SSE CHUNK: {
+  "type": "STARTED",
+  "runId": "4fdbdc9a-064e-457f-8b06-e334c1f4a6b7",
+  "timestamp": "2026-03-13T05:31:27.238Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "STREAMING_URL",
+  "runId": "4fdbdc9a-064e-457f-8b06-e334c1f4a6b7",
+  "streamingUrl": "https://tf-304a4324-6529-4fa0-93ea-4ea826867684.lax1-tinyfish.unikraft.app/stream/0",
+  "timestamp": "2026-03-13T05:31:31.346Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "4fdbdc9a-064e-457f-8b06-e334c1f4a6b7",
+  "purpose": "Visit the pricing page to find subscription plans.",
+  "timestamp": "2026-03-13T05:31:34.228Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "STREAMING_URL",
+  "runId": "4fdbdc9a-064e-457f-8b06-e334c1f4a6b7",
+  "streamingUrl": "https://tf-304a4324-6529-4fa0-93ea-4ea826867684.lax1-tinyfish.unikraft.app/stream/0",
+  "timestamp": "2026-03-13T05:31:36.497Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "4fdbdc9a-064e-457f-8b06-e334c1f4a6b7",
+  "purpose": "Extract subscription plans, prices, and features.",
+  "timestamp": "2026-03-13T05:31:40.050Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "4fdbdc9a-064e-457f-8b06-e334c1f4a6b7",
+  "purpose": "Verify pricing plans and check for a billing cycle toggle.",
+  "timestamp": "2026-03-13T05:31:48.503Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "4fdbdc9a-064e-457f-8b06-e334c1f4a6b7",
+  "purpose": "Extract all plan names, prices, and feature lists.",
+  "timestamp": "2026-03-13T05:31:56.640Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "HEARTBEAT",
+  "timestamp": "2026-03-13T05:32:11.641Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "COMPLETE",
+  "runId": "4fdbdc9a-064e-457f-8b06-e334c1f4a6b7",
+  "status": "COMPLETED",
+  "timestamp": "2026-03-13T05:32:13.396Z",
+  "resultJson": {
+    "subscription_plans": [
+      {
+        "name": "Free Trial",
+        "price": "$0 (free)",
+        "features": [
+          "300 free API calls",
+          "10 API calls per minute",
+          "1 hr of remote browser",
+          "1 concurrent remote browser session",
+          "Community and email support",
+          "Full access to developer tools"
+        ]
+      },
+      {
+        "name": "Starter",
+        "price": "$0/monthly",
+        "features": [
+          "50 free API calls/month",
+          "$0.02 per API call after the initial limit",
+          "10 API calls per minute",
+          "10 hrs of remote browser included",
+          "$0.12/hr of remote browser time",
+          "5 concurrent remote browser sessions",
+          "Community and email support",
+          "Full access to developer tools"
+        ]
+      },
+      {
+        "name": "Professional",
+        "price": "$99/monthly",
+        "features": [
+          "10,000 API calls/month included",
+          "$0.015 per API call after the initial limit",
+          "50 API calls per minute",
+          "500 hrs of remote browser included",
+          "$0.10/hr of remote browser time",
+          "100 concurrent remote browser sessions",
+          "Priority email support",
+          "Community support",
+          "Full access to developer tools"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "features": [
+          "Fastest time to market",
+          "Ready-to-use datasets",
+          "Fully managed dedicated cloud environment",
+          "On-premise deployment available",
+          "24/7 premium support",
+          "Dedicated account manager"
+        ]
+      }
+    ]
+  }
+}
+Γ£à Extracted structured data for AgentQL!
+  Agent steps recorded: 1
+
+ΓÅ│ Dispatching agent to visit Example SaaS (https://example.com/pricing)...
+DEBUG SSE CHUNK: {
+  "type": "STARTED",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "timestamp": "2026-03-13T05:32:15.199Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "STREAMING_URL",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "streamingUrl": "https://tf-8c1d34b0-74fe-4fe8-ba92-a787ff37448a.lax1-tinyfish.unikraft.app/stream/0",
+  "timestamp": "2026-03-13T05:32:20.270Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "purpose": "Visit the pricing page to find subscription plans.",
+  "timestamp": "2026-03-13T05:32:23.595Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "STREAMING_URL",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "streamingUrl": "https://tf-8c1d34b0-74fe-4fe8-ba92-a787ff37448a.lax1-tinyfish.unikraft.app/stream/0",
+  "timestamp": "2026-03-13T05:32:27.409Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "purpose": "Extract pricing plan details.",
+  "timestamp": "2026-03-13T05:32:29.891Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "purpose": "Try to extract any text about pricing.",
+  "timestamp": "2026-03-13T05:32:34.150Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "purpose": "Visually check the pricing page content.",
+  "timestamp": "2026-03-13T05:32:40.021Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "purpose": "Visit the main page of example.com to find pricing.",
+  "timestamp": "2026-03-13T05:32:44.537Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "STREAMING_URL",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "streamingUrl": "https://tf-8c1d34b0-74fe-4fe8-ba92-a787ff37448a.lax1-tinyfish.unikraft.app/stream/0",
+  "timestamp": "2026-03-13T05:32:45.712Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "purpose": "Search for the real pricing page of example.com.",
+  "timestamp": "2026-03-13T05:32:47.705Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "STREAMING_URL",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "streamingUrl": "https://tf-8c1d34b0-74fe-4fe8-ba92-a787ff37448a.lax1-tinyfish.unikraft.app/stream/0",
+  "timestamp": "2026-03-13T05:32:50.194Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "purpose": "Check www subdomain for pricing page.",
+  "timestamp": "2026-03-13T05:32:54.336Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "STREAMING_URL",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "streamingUrl": "https://tf-8c1d34b0-74fe-4fe8-ba92-a787ff37448a.lax1-tinyfish.unikraft.app/stream/0",
+  "timestamp": "2026-03-13T05:32:55.452Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "purpose": "Check if there's any content on the current page.",
+  "timestamp": "2026-03-13T05:32:57.343Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "purpose": "Search for the exact URL and subscription plans.",
+  "timestamp": "2026-03-13T05:33:05.096Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "STREAMING_URL",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "streamingUrl": "https://tf-8c1d34b0-74fe-4fe8-ba92-a787ff37448a.lax1-tinyfish.unikraft.app/stream/0",
+  "timestamp": "2026-03-13T05:33:07.100Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "purpose": "Check for any content on the pricing page.",
+  "timestamp": "2026-03-13T05:33:10.881Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "purpose": "Check example.org for pricing.",
+  "timestamp": "2026-03-13T05:33:20.532Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "STREAMING_URL",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "streamingUrl": "https://tf-8c1d34b0-74fe-4fe8-ba92-a787ff37448a.lax1-tinyfish.unikraft.app/stream/0",
+  "timestamp": "2026-03-13T05:33:21.973Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "purpose": "Search for subscription plans on example.com using site operator.",
+  "timestamp": "2026-03-13T05:33:24.654Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "STREAMING_URL",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "streamingUrl": "https://tf-8c1d34b0-74fe-4fe8-ba92-a787ff37448a.lax1-tinyfish.unikraft.app/stream/0",
+  "timestamp": "2026-03-13T05:33:28.486Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "purpose": "Final check for pricing tables.",
+  "timestamp": "2026-03-13T05:33:32.183Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "purpose": "Final visit to example.com/pricing to ensure no hidden elements.",
+  "timestamp": "2026-03-13T05:33:40.210Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "STREAMING_URL",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "streamingUrl": "https://tf-8c1d34b0-74fe-4fe8-ba92-a787ff37448a.lax1-tinyfish.unikraft.app/stream/0",
+  "timestamp": "2026-03-13T05:33:41.358Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "PROGRESS",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "purpose": "Check for any mock data related to example.com pricing.",
+  "timestamp": "2026-03-13T05:33:44.800Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "STREAMING_URL",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "streamingUrl": "https://tf-8c1d34b0-74fe-4fe8-ba92-a787ff37448a.lax1-tinyfish.unikraft.app/stream/0",
+  "timestamp": "2026-03-13T05:33:46.962Z"
+}
+DEBUG SSE CHUNK: {
+  "type": "COMPLETE",
+  "runId": "80b16349-2645-4d26-b1bf-20f4eda9c545",
+  "status": "COMPLETED",
+  "timestamp": "2026-03-13T05:33:51.802Z",
+  "resultJson": {
+    "message": "The requested page, https://example.com/pricing, is a part of a placeholder domain used for illustrative examples in documentation. As such, it does not contain any actual subscription plans, features, or pricing information.",
+    "plans": []
+  }
+}
+Γ£à Extracted structured data for Example SaaS!
+  Agent steps recorded: 1
+
+≡ƒÆ╛ Saved updated pricing information to C:\Users\Atharva\Desktop\Projects\HakerEarth\govbidfish\data\pricing-db.json
+Done.

@@ -1,0 +1,881 @@
+{
+  "data": [
+    {
+      "ticker": "MU",
+      "confidenceScore": "99%",
+      "name": "MU Corp",
+      "recommendation": "Buy",
+      "currentPrice": "$359.94",
+      "id": "c9f1499a-92a0-42e7-8de6-604b1045a974",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 397.52
+        },
+        {
+          "month": "Nov",
+          "price": 420.35
+        },
+        {
+          "month": "Dec",
+          "price": 420.37
+        },
+        {
+          "month": "Jan",
+          "price": 427.72
+        },
+        {
+          "month": "Feb",
+          "price": 440.01
+        },
+        {
+          "month": "Mar",
+          "price": 359.94
+        }
+      ],
+      "rationale": "Historical EPS beats and strong forward guidance. Cash flow positive over 6 quarters."
+    },
+    {
+      "ticker": "MSFT",
+      "confidenceScore": "98%",
+      "name": "MSFT Corp",
+      "recommendation": "Buy",
+      "currentPrice": "$268.62",
+      "id": "1e421400-0b84-40bb-af83-6711bd548907",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 271.81
+        },
+        {
+          "month": "Nov",
+          "price": 284.72
+        },
+        {
+          "month": "Dec",
+          "price": 298.26
+        },
+        {
+          "month": "Jan",
+          "price": 305.3
+        },
+        {
+          "month": "Feb",
+          "price": 319.93
+        },
+        {
+          "month": "Mar",
+          "price": 268.62
+        }
+      ],
+      "rationale": "Historical EPS beats and strong forward guidance. Cash flow positive over 6 quarters."
+    },
+    {
+      "ticker": "ADBE",
+      "confidenceScore": "96%",
+      "name": "ADBE Corp",
+      "recommendation": "Buy",
+      "currentPrice": "$385.71",
+      "id": "39ea8e2a-5460-4aea-ac11-7ef27e8ccd05",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 308.86
+        },
+        {
+          "month": "Nov",
+          "price": 334.9
+        },
+        {
+          "month": "Dec",
+          "price": 351.68
+        },
+        {
+          "month": "Jan",
+          "price": 370.29
+        },
+        {
+          "month": "Feb",
+          "price": 386.81
+        },
+        {
+          "month": "Mar",
+          "price": 385.71
+        }
+      ],
+      "rationale": "Historical EPS beats and strong forward guidance. Cash flow positive over 6 quarters."
+    },
+    {
+      "ticker": "NOW",
+      "confidenceScore": "93%",
+      "name": "NOW Corp",
+      "recommendation": "Buy",
+      "currentPrice": "$142.09",
+      "id": "caa78286-2a55-4257-8fd3-2a2e665b2229",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 124.7
+        },
+        {
+          "month": "Nov",
+          "price": 129.76
+        },
+        {
+          "month": "Dec",
+          "price": 130.23
+        },
+        {
+          "month": "Jan",
+          "price": 135.18
+        },
+        {
+          "month": "Feb",
+          "price": 145.77
+        },
+        {
+          "month": "Mar",
+          "price": 142.09
+        }
+      ],
+      "rationale": "Historical EPS beats and strong forward guidance. Cash flow positive over 6 quarters."
+    },
+    {
+      "ticker": "SNPS",
+      "confidenceScore": "91%",
+      "name": "SNPS Corp",
+      "recommendation": "Buy",
+      "currentPrice": "$98.59",
+      "id": "54d90a3d-a76e-45d8-bb0e-49e49d6705cf",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 110.98
+        },
+        {
+          "month": "Nov",
+          "price": 112.04
+        },
+        {
+          "month": "Dec",
+          "price": 121.11
+        },
+        {
+          "month": "Jan",
+          "price": 132.63
+        },
+        {
+          "month": "Feb",
+          "price": 140.89
+        },
+        {
+          "month": "Mar",
+          "price": 98.59
+        }
+      ],
+      "rationale": "Historical EPS beats and strong forward guidance. Cash flow positive over 6 quarters."
+    },
+    {
+      "ticker": "IBM",
+      "confidenceScore": "90%",
+      "name": "IBM Corp",
+      "recommendation": "Buy",
+      "currentPrice": "$243.69",
+      "id": "6ac37b1e-f3b7-4e45-99c0-569e13dbf0b8",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 234.05
+        },
+        {
+          "month": "Nov",
+          "price": 237.12
+        },
+        {
+          "month": "Dec",
+          "price": 254.45
+        },
+        {
+          "month": "Jan",
+          "price": 270.25
+        },
+        {
+          "month": "Feb",
+          "price": 272.66
+        },
+        {
+          "month": "Mar",
+          "price": 243.69
+        }
+      ],
+      "rationale": "Historical EPS beats and strong forward guidance. Cash flow positive over 6 quarters."
+    },
+    {
+      "ticker": "AVGO",
+      "confidenceScore": "88%",
+      "name": "AVGO Corp",
+      "recommendation": "Buy",
+      "currentPrice": "$94.29",
+      "id": "dd9a898c-070c-4e4b-b7f3-2c1db21322df",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 96.68
+        },
+        {
+          "month": "Nov",
+          "price": 101.12
+        },
+        {
+          "month": "Dec",
+          "price": 105.57
+        },
+        {
+          "month": "Jan",
+          "price": 111.7
+        },
+        {
+          "month": "Feb",
+          "price": 121.59
+        },
+        {
+          "month": "Mar",
+          "price": 94.29
+        }
+      ],
+      "rationale": "Historical EPS beats and strong forward guidance. Cash flow positive over 6 quarters."
+    },
+    {
+      "ticker": "UBER",
+      "confidenceScore": "86%",
+      "name": "UBER Corp",
+      "recommendation": "Buy",
+      "currentPrice": "$245.46",
+      "id": "daacd586-40b8-44b2-824f-ee02522c9e15",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 199.54
+        },
+        {
+          "month": "Nov",
+          "price": 205.83
+        },
+        {
+          "month": "Dec",
+          "price": 214.71
+        },
+        {
+          "month": "Jan",
+          "price": 225.97
+        },
+        {
+          "month": "Feb",
+          "price": 242.03
+        },
+        {
+          "month": "Mar",
+          "price": 245.46
+        }
+      ],
+      "rationale": "Historical EPS beats and strong forward guidance. Cash flow positive over 6 quarters."
+    },
+    {
+      "ticker": "NVDA",
+      "confidenceScore": "85%",
+      "name": "NVDA Corp",
+      "recommendation": "Buy",
+      "currentPrice": "$447.72",
+      "id": "9078163e-ca16-47b3-a5ff-a2dfee987b47",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 445.52
+        },
+        {
+          "month": "Nov",
+          "price": 449.66
+        },
+        {
+          "month": "Dec",
+          "price": 475.48
+        },
+        {
+          "month": "Jan",
+          "price": 507.13
+        },
+        {
+          "month": "Feb",
+          "price": 539.75
+        },
+        {
+          "month": "Mar",
+          "price": 447.72
+        }
+      ],
+      "rationale": "Historical EPS beats and strong forward guidance. Cash flow positive over 6 quarters."
+    },
+    {
+      "ticker": "AMD",
+      "confidenceScore": "84%",
+      "name": "AMD Corp",
+      "recommendation": "Buy",
+      "currentPrice": "$165.32",
+      "id": "acc51ab7-9faa-4c16-be85-654558057e41",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 169.85
+        },
+        {
+          "month": "Nov",
+          "price": 173.7
+        },
+        {
+          "month": "Dec",
+          "price": 181.44
+        },
+        {
+          "month": "Jan",
+          "price": 182.62
+        },
+        {
+          "month": "Feb",
+          "price": 191.37
+        },
+        {
+          "month": "Mar",
+          "price": 165.32
+        }
+      ],
+      "rationale": "Historical EPS beats and strong forward guidance. Cash flow positive over 6 quarters."
+    },
+    {
+      "ticker": "TSLA",
+      "confidenceScore": "83%",
+      "name": "TSLA Corp",
+      "recommendation": "Buy",
+      "currentPrice": "$384.94",
+      "id": "83173586-e823-410f-ba05-9761e6d68dc7",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 316.01
+        },
+        {
+          "month": "Nov",
+          "price": 332.99
+        },
+        {
+          "month": "Dec",
+          "price": 350.71
+        },
+        {
+          "month": "Jan",
+          "price": 375.13
+        },
+        {
+          "month": "Feb",
+          "price": 403.93
+        },
+        {
+          "month": "Mar",
+          "price": 384.94
+        }
+      ],
+      "rationale": "Historical EPS beats and strong forward guidance. Cash flow positive over 6 quarters."
+    },
+    {
+      "ticker": "QCOM",
+      "confidenceScore": "83%",
+      "name": "QCOM Corp",
+      "recommendation": "Buy",
+      "currentPrice": "$223.70",
+      "id": "5ef848b8-e8f4-48f4-9472-1ac5afe225e9",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 192.55
+        },
+        {
+          "month": "Nov",
+          "price": 209.55
+        },
+        {
+          "month": "Dec",
+          "price": 211.31
+        },
+        {
+          "month": "Jan",
+          "price": 212.04
+        },
+        {
+          "month": "Feb",
+          "price": 215.21
+        },
+        {
+          "month": "Mar",
+          "price": 223.7
+        }
+      ],
+      "rationale": "Historical EPS beats and strong forward guidance. Cash flow positive over 6 quarters."
+    },
+    {
+      "ticker": "TXN",
+      "confidenceScore": "83%",
+      "name": "TXN Corp",
+      "recommendation": "Buy",
+      "currentPrice": "$143.21",
+      "id": "406cfcc3-59a7-4024-810c-e3c1ec1184af",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 158.34
+        },
+        {
+          "month": "Nov",
+          "price": 169.29
+        },
+        {
+          "month": "Dec",
+          "price": 181.64
+        },
+        {
+          "month": "Jan",
+          "price": 183.2
+        },
+        {
+          "month": "Feb",
+          "price": 198.0
+        },
+        {
+          "month": "Mar",
+          "price": 143.21
+        }
+      ],
+      "rationale": "Historical EPS beats and strong forward guidance. Cash flow positive over 6 quarters."
+    },
+    {
+      "ticker": "TSM",
+      "confidenceScore": "82%",
+      "name": "TSM Corp",
+      "recommendation": "Buy",
+      "currentPrice": "$289.88",
+      "id": "73693e64-00aa-449b-a30b-a8af1255a33e",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 308.3
+        },
+        {
+          "month": "Nov",
+          "price": 338.97
+        },
+        {
+          "month": "Dec",
+          "price": 341.04
+        },
+        {
+          "month": "Jan",
+          "price": 365.55
+        },
+        {
+          "month": "Feb",
+          "price": 366.19
+        },
+        {
+          "month": "Mar",
+          "price": 289.88
+        }
+      ],
+      "rationale": "Historical EPS beats and strong forward guidance. Cash flow positive over 6 quarters."
+    },
+    {
+      "ticker": "ORCL",
+      "confidenceScore": "77%",
+      "name": "ORCL Corp",
+      "recommendation": "Hold",
+      "currentPrice": "$184.66",
+      "id": "47473621-09b4-4509-8f36-2f917bafd698",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 204.72
+        },
+        {
+          "month": "Nov",
+          "price": 209.79
+        },
+        {
+          "month": "Dec",
+          "price": 211.14
+        },
+        {
+          "month": "Jan",
+          "price": 198.51
+        },
+        {
+          "month": "Feb",
+          "price": 191.28
+        },
+        {
+          "month": "Mar",
+          "price": 184.66
+        }
+      ],
+      "rationale": "Stable historical performance but facing uncertain macroeconomic headwinds in Q3."
+    },
+    {
+      "ticker": "GOOGL",
+      "confidenceScore": "74%",
+      "name": "GOOGL Corp",
+      "recommendation": "Hold",
+      "currentPrice": "$303.95",
+      "id": "bcd4a46a-660f-4bd5-9e88-2b6ef720c380",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 293.55
+        },
+        {
+          "month": "Nov",
+          "price": 286.68
+        },
+        {
+          "month": "Dec",
+          "price": 291.36
+        },
+        {
+          "month": "Jan",
+          "price": 297.03
+        },
+        {
+          "month": "Feb",
+          "price": 288.47
+        },
+        {
+          "month": "Mar",
+          "price": 303.95
+        }
+      ],
+      "rationale": "Stable historical performance but facing uncertain macroeconomic headwinds in Q3."
+    },
+    {
+      "ticker": "PANW",
+      "confidenceScore": "68%",
+      "name": "PANW Corp",
+      "recommendation": "Hold",
+      "currentPrice": "$225.30",
+      "id": "27210150-f356-4069-9b0a-44cb06582746",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 268.31
+        },
+        {
+          "month": "Nov",
+          "price": 252.73
+        },
+        {
+          "month": "Dec",
+          "price": 249.73
+        },
+        {
+          "month": "Jan",
+          "price": 247.62
+        },
+        {
+          "month": "Feb",
+          "price": 241.62
+        },
+        {
+          "month": "Mar",
+          "price": 225.3
+        }
+      ],
+      "rationale": "Stable historical performance but facing uncertain macroeconomic headwinds in Q3."
+    },
+    {
+      "ticker": "AAPL",
+      "confidenceScore": "64%",
+      "name": "AAPL Corp",
+      "recommendation": "Hold",
+      "currentPrice": "$175.68",
+      "id": "99b2e362-c95a-4628-8f35-73febb3fc340",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 191.29
+        },
+        {
+          "month": "Nov",
+          "price": 179.94
+        },
+        {
+          "month": "Dec",
+          "price": 172.47
+        },
+        {
+          "month": "Jan",
+          "price": 169.08
+        },
+        {
+          "month": "Feb",
+          "price": 170.72
+        },
+        {
+          "month": "Mar",
+          "price": 175.68
+        }
+      ],
+      "rationale": "Stable historical performance but facing uncertain macroeconomic headwinds in Q3."
+    },
+    {
+      "ticker": "CRM",
+      "confidenceScore": "59%",
+      "name": "CRM Corp",
+      "recommendation": "Hold",
+      "currentPrice": "$302.15",
+      "id": "ddcc8195-6e87-4a16-9c4c-0fcbe40ab111",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 249.02
+        },
+        {
+          "month": "Nov",
+          "price": 246.0
+        },
+        {
+          "month": "Dec",
+          "price": 240.1
+        },
+        {
+          "month": "Jan",
+          "price": 234.11
+        },
+        {
+          "month": "Feb",
+          "price": 235.52
+        },
+        {
+          "month": "Mar",
+          "price": 302.15
+        }
+      ],
+      "rationale": "Stable historical performance but facing uncertain macroeconomic headwinds in Q3."
+    },
+    {
+      "ticker": "CSCO",
+      "confidenceScore": "53%",
+      "name": "CSCO Corp",
+      "recommendation": "Hold",
+      "currentPrice": "$327.94",
+      "id": "0a770a05-d9b7-4729-8e53-2121a3cb9a5f",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 373.5
+        },
+        {
+          "month": "Nov",
+          "price": 366.4
+        },
+        {
+          "month": "Dec",
+          "price": 343.49
+        },
+        {
+          "month": "Jan",
+          "price": 340.91
+        },
+        {
+          "month": "Feb",
+          "price": 347.44
+        },
+        {
+          "month": "Mar",
+          "price": 327.94
+        }
+      ],
+      "rationale": "Stable historical performance but facing uncertain macroeconomic headwinds in Q3."
+    },
+    {
+      "ticker": "AMZN",
+      "confidenceScore": "50%",
+      "name": "AMZN Corp",
+      "recommendation": "Hold",
+      "currentPrice": "$63.78",
+      "id": "0c6023c4-cc54-4534-afce-11c4d42d2bf8",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 74.25
+        },
+        {
+          "month": "Nov",
+          "price": 69.67
+        },
+        {
+          "month": "Dec",
+          "price": 71.71
+        },
+        {
+          "month": "Jan",
+          "price": 73.54
+        },
+        {
+          "month": "Feb",
+          "price": 71.64
+        },
+        {
+          "month": "Mar",
+          "price": 63.78
+        }
+      ],
+      "rationale": "Stable historical performance but facing uncertain macroeconomic headwinds in Q3."
+    },
+    {
+      "ticker": "META",
+      "confidenceScore": "42%",
+      "name": "META Corp",
+      "recommendation": "Sell",
+      "currentPrice": "$91.74",
+      "id": "4bf12ada-3de8-45f2-9f99-94e6f88c04ee",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 109.01
+        },
+        {
+          "month": "Nov",
+          "price": 102.53
+        },
+        {
+          "month": "Dec",
+          "price": 102.84
+        },
+        {
+          "month": "Jan",
+          "price": 103.69
+        },
+        {
+          "month": "Feb",
+          "price": 101.22
+        },
+        {
+          "month": "Mar",
+          "price": 91.74
+        }
+      ],
+      "rationale": "Declining margins against historical averages. Revenue miss anticipated."
+    },
+    {
+      "ticker": "INTC",
+      "confidenceScore": "39%",
+      "name": "INTC Corp",
+      "recommendation": "Sell",
+      "currentPrice": "$94.73",
+      "id": "779b1034-3cb9-4601-99ce-22c3a2488826",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 96.96
+        },
+        {
+          "month": "Nov",
+          "price": 91.18
+        },
+        {
+          "month": "Dec",
+          "price": 88.66
+        },
+        {
+          "month": "Jan",
+          "price": 84.33
+        },
+        {
+          "month": "Feb",
+          "price": 86.77
+        },
+        {
+          "month": "Mar",
+          "price": 94.73
+        }
+      ],
+      "rationale": "Declining margins against historical averages. Revenue miss anticipated."
+    },
+    {
+      "ticker": "INTU",
+      "confidenceScore": "35%",
+      "name": "INTU Corp",
+      "recommendation": "Sell",
+      "currentPrice": "$345.35",
+      "id": "2386c709-1be6-474b-a23e-f67fef0c5ad4",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 300.04
+        },
+        {
+          "month": "Nov",
+          "price": 281.5
+        },
+        {
+          "month": "Dec",
+          "price": 284.35
+        },
+        {
+          "month": "Jan",
+          "price": 271.2
+        },
+        {
+          "month": "Feb",
+          "price": 257.54
+        },
+        {
+          "month": "Mar",
+          "price": 345.35
+        }
+      ],
+      "rationale": "Declining margins against historical averages. Revenue miss anticipated."
+    },
+    {
+      "ticker": "AMAT",
+      "confidenceScore": "22%",
+      "name": "AMAT Corp",
+      "recommendation": "Sell",
+      "currentPrice": "$230.24",
+      "id": "58a37f1c-4b09-46f6-b5c4-d260fff09aed",
+      "history": [
+        {
+          "month": "Oct",
+          "price": 192.11
+        },
+        {
+          "month": "Nov",
+          "price": 194.37
+        },
+        {
+          "month": "Dec",
+          "price": 189.84
+        },
+        {
+          "month": "Jan",
+          "price": 177.22
+        },
+        {
+          "month": "Feb",
+          "price": 171.41
+        },
+        {
+          "month": "Mar",
+          "price": 230.24
+        }
+      ],
+      "rationale": "Declining margins against historical averages. Revenue miss anticipated."
+    }
+  ],
+  "success": true,
+  "message": "InvestFish Agent completed processing. Found 25 targets."
+}

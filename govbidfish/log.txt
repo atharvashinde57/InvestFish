@@ -1,0 +1,18 @@
+
+> govbidfish@0.1.0 monitor
+> tsx scripts/monitor-pricing.ts
+
+==================================================
+≡ƒÄú Starting Daily TinyFish Competitor Monitor...
+==================================================
+
+ΓÅ│ Dispatching agent to visit AgentQL (https://agentql.com/pricing)...
+Γ£à Extracted structured data for AgentQL!
+  Agent steps recorded: 1
+
+ΓÅ│ Dispatching agent to visit Example SaaS (https://example.com/pricing)...
+Γ£à Extracted structured data for Example SaaS!
+  Agent steps recorded: 1
+
+≡ƒÆ╛ Saved updated pricing information to C:\Users\Atharva\Desktop\Projects\HakerEarth\govbidfish\data\pricing-db.json
+Done.
